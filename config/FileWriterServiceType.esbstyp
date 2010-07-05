@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceType name="FileWriterServiceType" factoryClass="com.progress.codeshare.esbservice.fileWriter.FileWriterService"
+        xmlns="http://www.sonicsw.com/sonicxq">
+    <validParams>
+        <runtime>
+            <stringParam name="directory"/>
+            <stringParam name="file"/>
+            <stringParam name="messagePart"/>
+        </runtime>
+    </validParams>
+</serviceType>
